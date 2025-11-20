@@ -1,0 +1,14 @@
+﻿.pt-header {
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:12px 0;
+  margin-bottom:16px;
+}
+.pt-brand {
+  font-size:24px;
+  font-weight:700;
+}
+.pt-nav { display:flex; gap:12px; align-items:center; }
+.pt-link { color: inherit; text-decoration:none; padding:6px 8px; border-radius:6px; }
+.pt-link:hover { background: rgba(3,102,214,0.08); }

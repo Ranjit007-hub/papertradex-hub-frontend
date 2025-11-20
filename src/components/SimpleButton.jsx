@@ -1,15 +1,16 @@
-﻿import React from "react";
+﻿import React from 'react';
+import theme from '../theme';
 export default function SimpleButton({ children, onClick }) {
   return (
     <button
       onClick={onClick}
       style={{
-        padding: "8px 12px",
+        padding: '8px 12px',
         borderRadius: 6,
-        border: "1px solid #0366d6",
-        background: "#0366d6",
-        color: "#fff",
-        cursor: "pointer"
+        border: 1px solid ,
+        background: theme.colors.primary,
+        color: '#fff',
+        cursor: 'pointer'
       }}
     >
       {children}
